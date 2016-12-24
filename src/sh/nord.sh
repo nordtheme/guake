@@ -15,7 +15,7 @@ _ctb_success="\e[1;32m"
 _ctb="\e[1;37m"
 _c_reset="\e[0m"
 
-NORD_GUAKE_VERSION=
+NORD_GUAKE_VERSION=0.1.0
 
 __cleanup() {
   trap '' SIGINT SIGTERM
