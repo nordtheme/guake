@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-# title      Nord Guake                                    +
-# project    nord-guake                                    +
-# repository https://github.com/arcticicestudio/nord-guake +
-# author     Arctic Ice Studio                             +
-# email      development@arcticicestudio.com               +
-# copyright  Copyright (C) 2016                            +
-# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord Guake
+# Repository: https://github.com/arcticicestudio/nord-guake
+# License:    MIT
+
 set -e
 
 _ct="\e[0;37m"
