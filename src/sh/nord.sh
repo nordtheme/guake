@@ -1,12 +1,11 @@
 #!/usr/bin/env bash
-# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
 
-# Project:    Nord Guake
-# Repository: https://github.com/arcticicestudio/nord-guake
-# License:    MIT
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
 
-set -e
+# nounset: Treat unset variables and parameters as an error when performing parameter expansion
+# errexit: Exit immediately if any command exits with a non-zero status
+set -o nounset -o errexit
 
 _ct="\e[0;37m"
 _ctb_error="\e[1;31m"
